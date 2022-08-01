@@ -1,0 +1,40 @@
+
+body,html{
+    height: 100%;
+    background-color: black !important;
+    
+    
+}
+.maincont{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+
+}
+.maincont h2{
+    font-family: 'Carter One', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.button{
+    padding-top: 15px;
+    
+}
+.btn{
+    margin-left: 10px !important;
+    
+    
+}
+.btn:hover{
+    cursor: pointer !important;
+    background-color: black !important;
+    color: whitesmoke !important;
+    border: 1px solid #0dcaf0 !important;
+    
+    
+    
+}

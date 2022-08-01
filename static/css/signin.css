@@ -1,0 +1,48 @@
+body,html{
+    height: 100%;
+    background-color: black !important;
+    
+    
+}
+
+.maincont{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px !important;
+    
+    
+
+}
+.maincont h3{
+    font-family: 'Carter One', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: aliceblue;
+    padding-bottom: 2rem;
+    
+    
+
+}
+
+.mb-3 label{
+    
+    color: aliceblue;
+}
+.mb-3 input{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid #0dcaf0;
+
+}
+form button{
+    margin-top: 1rem !important;
+    position: fixed;
+    left: 35%;
+}
+.alert{
+   
+    margin-top: 2rem !important;
+    
+}

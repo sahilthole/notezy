@@ -1,0 +1,129 @@
+body,html{
+    height: 100%;
+    background-color: black !important;
+}
+.maincont{
+    position:fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px !important;
+}
+.navbar .navbar-brand{
+    font-family: 'Carter One', cursive;;
+    color: black;
+    
+    padding-right: 3rem;
+}
+
+.navbar{
+    background-color: #0dcaf0 !important;
+    border: 1px solid black;
+}
+.navbar .navbar-nav a{
+    color: black !important;
+    margin-left: 1rem;
+   
+    
+    font-family: 'Patrick Hand', cursive;
+}
+
+ 
+@media  only screen and (min-width:1000px) {
+    .navbar .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar .navbar-nav{
+        font-size: 1.5rem;
+    }
+    .maincont form{
+        
+        width: 550px;
+        margin-left: -2rem;
+    }
+    .maincont h2{
+        padding-left: 6rem;
+    }
+}
+.maincont h2{
+    font-family: 'Carter One', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 3rem;
+}
+.maincont form{
+    border: 1px solid #0dcaf0  ;
+    padding: 2rem;
+   border-radius: 10%;
+}
+.maincont form label{
+    color: aliceblue;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+    
+}
+.maincont form input{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid #0dcaf0;
+    
+}
+.maincont form textarea{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid #0dcaf0;
+}
+.maincont form button{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #0dcaf0 !important;
+    font-family: 'Patrick Hand', cursive !important;
+    color: black !important;
+    
+    
+}
+.maincont form button:hover{
+    background-color: black !important;
+    color: whitesmoke !important;
+    border: 1px solid #0dcaf0 !important;
+    
+}
+.notes{
+    margin-top: 5rem !important;
+    
+}
+.card-title{
+    line-height: 2rem !important;
+    font-family: 'Carter One', cursive;
+}
+.card-text{
+    font-family: 'Lobster', cursive !important;
+    font-size: large;
+}
+
+.card{
+    border-radius: 3rem;
+    background:#0dcaf0 !important;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card .btn{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 3rem;
+    
+}
+.card .btn:hover{
+    background-color: black;
+    color: antiquewhite;
+    
+}
